@@ -5,15 +5,18 @@ import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { TabsPage } from '../pages/tabs/tabs';
+import { CalculatorPage } from  '../pages/calculator/calculator';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { ClassField } from '@angular/compiler/src/output/output_ast';
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
-    TabsPage
+    TabsPage,
+    CalculatorPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +26,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     AboutPage,
-    TabsPage
+    TabsPage,
+    CalculatorPage
   ],
   providers: [
     StatusBar,
