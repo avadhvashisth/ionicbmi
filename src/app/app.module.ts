@@ -9,7 +9,6 @@ import { CalculatorPage } from  '../pages/calculator/calculator';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { ClassField } from '@angular/compiler/src/output/output_ast';
 
 @NgModule({
   declarations: [
